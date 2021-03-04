@@ -2,11 +2,35 @@ body {
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
+
+img:hover {
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .3s linear;
+}
+.tomato-color {
+    color: tomato;
+    text-transform: uppercase;
+}
+.white-color {
+    color: white;
+    text-transform: uppercase;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+.font-weight-bolder {
+    font-weight: bolder;
+}
 .banner-container {
     background: #CACACA;
 }
 .banner-column {
     background: #8D8D8D;
+}
+.navbar-section {
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 nav {
     text-transform: uppercase;
@@ -23,4 +47,60 @@ nav a {
     position: relative;
     left: 10px;
     margin-bottom: 10px;
+}
+.my-img {
+    border-radius: 10px;
+}
+.about-section {
+    background: teal;
+    color: white;
+}
+.education-section .card:hover {
+    box-shadow: 1px 1px 1px 1px tomato;
+    transition: all .2s linear;
+}
+.circle {
+    background: tomato;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+.project-section {
+    background: teal;
+}
+.contact-section  {
+    background: #474D5D;
+}
+.margin-right {
+    margin-right: 5px;
+}
+.bummy-box {
+    font-size: 72px;
+}
+.inner-form {
+    background: #585F73;
+}
+textarea {
+    resize: none;
+}
+footer {
+    background: black;
+}
+.text-italic {
+    font-style: italic;
+}
+footer i {
+    font-size: 40px;
+    margin: 10px;
+}
+footer i:hover {
+    color: gray;
+    transform: rotate(360deg);
+    transition: all 0.9s linear;
+}
+footer span {
+    color: tomato;
 }
