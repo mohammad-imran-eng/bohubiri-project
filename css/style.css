@@ -5,17 +5,14 @@ body {
 
 img:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
     transition: all .2s linear;
 }
-.tomato-color {
-    color: tomato;
+.black-color {
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
 }
-.white-color {
-    color: white;
-    text-transform: uppercase;
-}
+
 .font-weight-bold {
     font-weight: bold;
 }
@@ -23,10 +20,10 @@ img:hover {
     font-weight: bolder;
 }
 .banner-container {
-    background: #CACACA;
+    background: #76c7bf;
 }
 .banner-column {
-    background: #8D8D8D;
+    background: #95e1d3;
 }
 .navbar-section {
     position: sticky;
@@ -53,12 +50,12 @@ nav a {
     border-radius: 10px;
 }
 .about-section {
-    background: teal;
+    background: #ff005c;
     color: white;
 }
 .education-section .card:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     transition: all .2s linear;
 }
 .circle {
@@ -71,7 +68,7 @@ nav a {
     margin: 0 auto;
 }
 .project-section {
-    background: teal;
+    background: #ff005c;
 }
 .contact-section  {
     background: #474D5D;
