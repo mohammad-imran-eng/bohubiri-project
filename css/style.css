@@ -20,10 +20,10 @@ img:hover {
     font-weight: bolder;
 }
 .banner-container {
-    background: #76c7bf;
+    background: #128a62;
 }
 .banner-column {
-    background: #95e1d3;
+    background: #15996d;
 }
 .navbar-section {
     position: sticky;
@@ -50,7 +50,7 @@ nav a {
     border-radius: 10px;
 }
 .about-section {
-    background: #ff005c;
+    background: #16aa79;
     color: white;
 }
 .education-section .card:hover {
@@ -68,7 +68,7 @@ nav a {
     margin: 0 auto;
 }
 .project-section {
-    background: #ff005c;
+    background: #16aa79;
 }
 .contact-section  {
     background: #474D5D;
